@@ -6,8 +6,8 @@ Python module, which:
     - performs feature engineering
     - generates and saves plots
     - trains models
-    
-    
+
+
 Author: Daniel Kleine
 Date: 21 December 2022
 '''
