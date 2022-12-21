@@ -6,7 +6,7 @@
 This project identifies credit card customers that are most likely to churn. It includes a Python package for a ML project that follows coding (PEP 8) and engineering best practices for implementing software (modular, documented, and tested).
 
 File struture:
-
+```bash
 data (datasets)
         bank_data.csv (churn dataset)
     images (visualizations)
@@ -30,6 +30,7 @@ data (datasets)
     churn_notebook.ipynb (original file for loading the data, cleaning, feature engineering, model training, scoring and results reporting)
     churn_script_logging_and_tests.py (tests for functions implemented in churn_library.py)
     README.md
+ ```
 
 ## Files and data description
 The corresponding dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers) and stored as *./data* and the path updated in project config file:
