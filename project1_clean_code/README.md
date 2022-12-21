@@ -6,32 +6,6 @@
 This project identifies credit card customers that are most likely to churn. It includes a Python package for a ML project that follows coding (PEP 8) and engineering best practices for implementing software (modular, documented, and tested).
 
 File struture:
-```bash
-data 
-        bank_data.csv 
-    images 
-        eda 
-            churn_distribution.png 
-            customer_age_distribution.png 
-            heatmap.png 
-            marital_status_distribution.png 
-            total_transaction_distribution.png 
-        results (model results)
-            feature_importance.png (feature importances)
-            logistics_results.png 
-            rf_results.png 
-            roc_curve_result.png 
-    logs 
-        churn_library.log
-    models 
-        logistic_model.pkl (best model for logistic regression)
-        rfc_model.pkl 
-    churn_library.py
-    churn_notebook.ipynb 
-    churn_script_logging_and_tests.py 
-    README.md
- ```
-
 * [data/](.\project1_clean_code\data) (datasets)
   * [bank_data.csv](.\project1_clean_code\data\bank_data.csv) (churn dataset)
 * [images/](.\project1_clean_code\images) (visualizations)
