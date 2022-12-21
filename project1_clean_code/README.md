@@ -16,9 +16,17 @@ and stored under *./data* and the path updated in project config file:
 ## Running Files
 * Install dependencies
 
+Python 3.6:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_py3.6.txt
 ```
+
+Python 3.8
+```bash
+pip install -r requirements_py3.8.txt
+```
+
+for Python 
 
 * Run script
 
