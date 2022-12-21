@@ -2,10 +2,14 @@
 '''
 Python module, which:
     - imports df
-    - perform EDA
-    - perform feature engineering
-    - generate and save plots
-    - train models
+    - performs EDA
+    - performs feature engineering
+    - generates and saves plots
+    - trains models
+    
+    
+Author: Daniel Kleine
+Date: 21 December 2022
 '''
 
 # import libraries

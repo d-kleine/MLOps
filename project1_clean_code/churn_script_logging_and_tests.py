@@ -1,10 +1,13 @@
 '''
-Module for performing test and logging for churn_library.py
+Python module for performing tests and logging for churn_library.py
 - test data import
 - test EDA
 - test data encoder
 - test feature enginering
 - test train model
+
+Author: Daniel Kleine
+Date: 21 December 2022
 '''
 
 import os
