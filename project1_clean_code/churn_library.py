@@ -53,13 +53,13 @@ def perform_eda(data_frame):
     '''
     data_frame['Churn'] = data_frame['Attrition_Flag'].apply(
         lambda val: 0 if val == "Existing Customer" else 1)
-    # Churn Histogram
+    # Churn histogram
     plt.figure(figsize=(20, 10))
     data_frame['Churn'].hist()
     plt.savefig('./images/eda/churn_distribution.png')
     plt.close()
 
-    # Customer_Age Histogram
+    # Customer_Age histogram
     plt.figure(figsize=(20, 10))
     data_frame['Customer_Age'].hist()
     plt.savefig('./images/eda/customer_age_distribution.png')
@@ -71,13 +71,13 @@ def perform_eda(data_frame):
     plt.savefig('./images/eda/marital_status_distribution.png')
     plt.close()
 
-    # Total_Trans_Ct histrogram
+    # Total_Trans_Ct histogram
     plt.figure(figsize=(20, 10))
     sns.histplot(data_frame['Total_Trans_Ct'], stat='density', kde=True)
     plt.savefig('./images/eda/total_trans_Ct.png')
     plt.close()
 
-    # Feature Correlations
+    # Feature correlations
     plt.figure(figsize=(20, 10))
     sns.heatmap(
         data_frame.corr(),
@@ -231,23 +231,23 @@ def feature_importance_plot(model, x_data, output_pth):
     # calculate feature importance:
     importances = model.best_estimator_.feature_importances_
 
-    # Sort feature importances in descending order
+    # sort feature importances in descending order
     indices = np.argsort(importances)[::-1]
 
-    # Rearrange feature names so they match the sorted feature importances
+    # rearrange feature names so they match the sorted feature importances
     names = [x_data.columns[i] for i in indices]
 
-    # Create plot
+    # create plot
     plt.figure(figsize=(20, 5))
 
-    # Create plot title
+    # create plot title
     plt.title("Feature Importance")
     plt.ylabel('Importance')
 
-    # Add bars
+    # add bars
     plt.bar(range(x_data.shape[1]), importances[indices])
 
-    # Add feature names as x-axis labels
+    # add feature names as x-axis labels
     plt.xticks(range(x_data.shape[1]), names, rotation=90)
 
     # save feature importance plot:
@@ -295,7 +295,7 @@ def train_models(x_train, x_test, y_train, y_test):
     y_train_preds_lr = lrc.predict(x_train)
     y_test_preds_lr = lrc.predict(x_test)
 
-    # Save roc_curve plot:
+    # save roc_curve plot:
     lrc_plot = plot_roc_curve(lrc, x_test, y_test)
     plt.figure(figsize=(15, 8))
     axis = plt.gca()
@@ -307,7 +307,7 @@ def train_models(x_train, x_test, y_train, y_test):
     plt.savefig('./images/results/roc_curve_result.png')
     plt.close()
 
-    # Save classification_score plots
+    # save classification_score plots
     classification_report_image(y_train,
                                 y_test,
                                 y_train_preds_lr,
