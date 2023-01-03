@@ -1,11 +1,11 @@
-W & B project:
+W&B project:
 https://wandb.ai/dkleine/nyc_airbnb
 
 Best model selection:
-<img src="https://github.com/d-kleine/build-ml-pipeline-for-short-term-rental-prices/images/blob/main/models.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project2_reproducible-ml-workflow/images/models.png">
 
 Pipeline graph view:
-<img src="https://github.com/d-kleine/build-ml-pipeline-for-short-term-rental-prices/images/blob/main/pipeline_graphview.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project2_reproducible-ml-workflow/images/pipeline_graphview.png">
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
