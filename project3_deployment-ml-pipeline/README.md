@@ -1,22 +1,22 @@
 ## Deploying an ML Model with FastAPI and Render
 
 * GitHub actions
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/github_actions.png">
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/continuous_integration.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/github_actions.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/continuous_integration.png">
 
 * Unit tests for *main.py* and *Random forest* model
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/test_main.png">
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/test_model.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/test_main.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/test_model.png">
 
 * FastAPI CI and testing
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/example.png">
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/local_get.png">
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/live_get.png">
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/live_post.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/example.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/local_get.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/live_get.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/live_post.png">
 
 * Render CD
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/render_services.png">
-<img src="https://github.com/d-kleine/nd0821-c3-starter-code/blob/master/starter/screenshots/continuos_deployment.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/render_services.png">
+<img src="https://github.com/d-kleine/Udacity_MLOps/blob/main/project3_deployment-ml-pipeline/starter/screenshots/continuos_deployment.png">
 
 Working in a command line environment is recommended for ease of use with git and dvc. If on Windows, WSL1 or 2 is recommended.
 
