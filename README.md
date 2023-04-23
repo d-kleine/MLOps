@@ -6,7 +6,10 @@ Build DevOps skills required to automate the various aspects and stages of machi
 
 ### Predict Customer Churn with Clean Code
 
-In this project, you will implement your learnings to identify credit card customers that are most likely to churn. The completed project will include a Python package for a machine learning project that follows coding (PEP8) and engineering best practices for implementing software (modular, documented, and tested). The package will also have the flexibility of being run interactively or from the command-line interface (CLI). This project will give you practice using your skills for testing, logging, and coding best practices from the lessons. It will also introduce you to a problem data scientists across companies face all the time: How do we identify (and later intervene with) customers who are likely to churn?
+Deploying machine learning models in production:
+-	PyLint and AutoPEP8
+-	Git and GitHub
+-	Testing with pytest and logging with logging
 
 [Project](https://github.com/d-kleine/Udacity_MLOps/tree/main/project1_clean_code)
 
@@ -14,7 +17,10 @@ In this project, you will implement your learnings to identify credit card custo
 
 ### Build an ML Pipeline for Short-term Rental Prices in NYC
 
-Students will write a Machine Learning Pipeline to solve the following problem: a property management company is renting rooms and properties in New York for short periods on various rental platforms. They need to estimate the typical price for a given property based on the price of similar properties. The company receives new data in bulk every week, so the model needs to be retrained with the same cadence, necessitating a reusable pipeline. The students will write an end-to-end pipeline covering data fetching, validation, segregation, train and validation, test, and release. They will run it on an initial data sample, and then re-run it on a new data sample simulating a new data delivery.
+Efficiency, effectiveness, and productivity in modern, real-world ML projects:
+-	Clean, organized, reproducible end-to-end ML pipeline with MLflow
+-	Track experiments, code, and results with GitHub and Weights & Biases
+-	Selecting and deploying the best performing model using MLflow
 
 [Project](https://github.com/d-kleine/Udacity_MLOps/tree/main/project2_reproducible-ml-workflow)
 
@@ -22,15 +28,21 @@ Students will write a Machine Learning Pipeline to solve the following problem: 
 
 ### Deploying a Machine Learning Model on Heroku with FastAPI
 
-In this project, students will deploy a machine learning model on Heroku. The students will use Git and DVC to track their code, data, and model while developing a simple classification model on the Census Income Data Set. After developing the model the students will finalize the model for production by checking its performance on slices and writing a model card encapsulating key knowledge about the model. Students will put together a Continuous Integration and Continuous Deployment framework and ensure their pipeline passes a series of unit tests before deployment. Lastly, an API will be written using FastAPI and will be tested locally. After successful deployment the API will be tested live using the requests module.
-
-After completion, the student will have a working API that is live in production, a set of tests, model card, and full CI/CD framework. On its own, this project can be used as a portfolio piece, but also any of the constituent pieces can be applied to other projects, e.g. continuous integration, to further flesh them out.
+Deploying a machine learning model in Production:
+-	Modeling performance, checking for bias using data cross-sections (called "slices"), and writing a model map
+-	Version control of data and models with Data Version Control (DVC) 
+-	Continuous Integration with GitHub Actions and Continuous Delivery/Deployment
+-	Fast, type-checked and autodocumented writing of a user interface (API) with FastAPI
 
 [Project](https://github.com/d-kleine/Udacity_MLOps/tree/main/project3_deployment-ml-pipeline)
 
 
 ### A Dynamic Risk Assessment System
 
-In this project, students will make predictions about attrition risk in a fabricated dataset. They’ll set up automated processes to ingest data and score, re-train, and re-deploy ML models that predict attrition risk. They’ll write scripts to automatically check for new data and check for model drift. They’ll also set up API’s that allow users to access model results, metrics, and diagnostics. After completing this project, students will have a full end-to-end, automated ML project that performs risk assessments. This project can be a useful addition to students’ portfolios, and the concepts they apply in the project can be applied to business problems across a variety of industries.
+Full automation of MLOps processes:
+-	Model training and deployment
+-	Establish regular assessment processes: Re-training and re-deployment of models at model drift.
+-	Diagnose operational issues with models, including data integrity and stability issues, timing issues, and dependency issues 
+-	Setup of automated reports for APIs
 
 [Project](https://github.com/d-kleine/Udacity_MLOps/tree/main/project4_model-scoring-monitoring)
